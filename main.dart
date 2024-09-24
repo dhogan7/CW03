@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:async'; // Import Timer
+import 'dart:async'; 
 
 void main() {
   runApp(MaterialApp(
@@ -13,7 +13,7 @@ class DigitalPetApp extends StatefulWidget {
 }
 
 class _DigitalPetAppState extends State<DigitalPetApp> {
-  String petName = "Your Pet"; // Default pet name
+  String petName = "Your Pet"; 
   int happinessLevel = 50;
   int hungerLevel = 50;
   TextEditingController nameController = TextEditingController(); // Controller for the input field
